@@ -1,0 +1,80 @@
+.nav-bar{
+    border: 10px solid ;
+    border-radius: 2px;
+    padding: 20px;
+    text-align: center;
+    text-indent: 10px;
+    font-size: 20px;
+    word-spacing: 100px;
+    float: inline-start;
+    top:0;
+}
+
+
+body{
+    background-image:url("download.jpg");
+    margin:;
+    border: 100px;
+    padding: 20px ,20px,20px,20px;
+}
+.b{
+    text-align: right;
+    font-size:2.5em;
+    display: iline-block;
+    font-family:cursive ;
+}
+.c:link{
+    font-size: 2em;
+    border-color: lightcoral;
+    
+    display: inline;
+    margin:20px;
+    color: lawngreen;
+   
+} 
+.c{
+    word-spacing: 20%;
+    text-align: center;
+    border: 10px solid;
+}
+.button{
+    font-size: 3em;
+    color: rgb(0, 148, 240);
+    padding:40px;    
+}
+
+
+a:hover{
+    font-size: 120%;
+    color:white;
+    background-color: black;
+}
+a:link{
+    color:black;
+    font-size: 2em;
+    position: sticky;
+}
+.features{
+    font-size: 2.5em;
+}
+.ab{
+    font-size: 3em;
+    text-align: center;
+    background-image: url("in.jpg");
+    border: lightcoral;
+    border-style: double;
+    font-family:cursive;
+}
+.a1{
+    text-align: center;
+    margin:20px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration-color: cornsilk;
+    font-family:cursive ;
+    font-size: 2.5em;
+}
+.features,b,c{
+    font-family: cursive;
+}
