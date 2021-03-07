@@ -1,0 +1,39 @@
+body{
+    background-image: url("download.jpg");
+}
+.nav-bar{
+    border: 10px solid ;
+    border-radius: 2px;
+    padding: 20px;
+    text-align: center;
+    text-indent: 10px;
+    font-size: 20px;
+    word-spacing: 100px;
+    float: inline-start;
+    top:0;
+}
+a:hover{
+    font-size: 120%;
+    color:white;
+    background-color: black;
+}
+a:link{
+    color:black;
+    font-size: 2em;
+    position: sticky;
+}
+.ab{
+    font-size: 2em;
+    text-align: center;
+    background-image: url("in.jpg");
+    border: lightcoral;
+    border-style: double;
+    font-family:cursive;
+}
+
+.container{
+        background-color: blanchedalmond;
+        margin:25px;
+        padding:10px;
+        border: 1px solid coral;
+}
