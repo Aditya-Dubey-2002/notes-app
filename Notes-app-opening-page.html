@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="NotesApp-Opening.css">
     <style>
         body{
-            background-image: url("download.jpg");
+            background-image: url("bg1.jpg");
         }
         .c{
             background-image: url("footer.jpg");
@@ -43,16 +43,32 @@
     <section class="a1">
         <h2 >Welcome to Notes App</h2>
         A place where you can make your notes in amazingly efficient way.
-        <div class="button"><button>Sign-Up</button>
-        <button>Sign-In</button>
+        
+        <div class="form" >
+
+            <!-- the below code directs to different pages for sign in and sign up -->
+
+            <a href="Notes-App-Signup.html"><button>SignUp</button></a>
+            <a href="Notes-App-Sign-In.html"><button>Sign-In</button></a>
+
+            <!-- I added the below code for the authentication directly form the opening page and may use it instead of above code
+                 when firebase would be used for authentication  -->
+
+            <!-- <p id="Email">Enter Email Id*: <input type="email" required></p>
+            <p id="password">Enter Password*: <input type="password" required></p>
+            <a href=""><button id="sign-up">SignUp</button></a>
+            <a href=""><button id="login">Login</button></a> -->
+           
     </div>
+        
     </section>
 <hr>
-<h3><div class="features" id="f">Features</h3></div>    
+<h3><div class="features" id="f" >Features</h3></div>    
+
 <hr>
 <section class="b">
     <h4>Make your notes and edit them in a simple way</h4>
-    <img src="">
+    <img src="scrn.jpg">
 </section>
 <hr>
 <section class="b">
@@ -67,5 +83,6 @@
     </nav>
 </footer>
 </section>
+
 </body>
 </html>
