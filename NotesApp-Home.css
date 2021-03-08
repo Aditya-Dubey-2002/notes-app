@@ -12,18 +12,21 @@
 }
 .nav ul li{
     padding: 3px;
-    border-bottom: 1px solid aqua;
-    border-top: 1px solid aqua;
+    border:1px solid aqua ;
     list-style-type: none;
+    background-color:blanchedalmond ;
+
 }
 .nav ul li:hover{
-    background-color: rgb(230, 148, 148);
+    background-color: coral;
 }
 
 .head{
     font-size: 3em;
     text-align:center;
     background-image: url("in.jpg");
+    margin-top: 20px;
+    border:3px solid black;
     
 }
 body{
@@ -48,6 +51,15 @@ input[type="text"]{
 
 
 }
+.addbtn{
+    padding:10px 15px;
+    background-color: rgb(253, 109, 56);
+    border:1px solid rgb(3, 5, 5);
+    width:75%;
+}
+.addbtn:hover{
+    background-color: rgb(253, 68, 0);
+}
 /* .box{
     margin:0;
     padding:0;
@@ -57,3 +69,14 @@ input[type="text"]{
 form{
     text-align: center;
 }
+/* .nav1{
+    border: 10px solid ;
+    border-radius: 2px;
+    padding: 20px;
+    text-align: center;
+    text-indent: 10px;
+    font-size: 20px;
+    word-spacing: 100px;
+    float: inline-start;
+    top:0;
+} */
