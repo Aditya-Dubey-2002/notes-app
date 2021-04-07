@@ -10,12 +10,14 @@
         background-image: url("bg1.jpg");
       }
     </style>
-     <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
+    <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
   </head>
   <body>
     <header class="head">
@@ -30,17 +32,25 @@
     </nav> -->
     <h2>Hello User! <br />Welcome to Notes App</h2>
     <div class="container">
-      <h1>Add Your New Note Here</h1>
-      Required fields are followed by*
-      <div>
-        <p>Add Note*:</p>
+      <!-- <div id="eNote"> -->
+        <h1>Add Your New Note Here</h1>
+        Required fields are followed by*
+        <div>
+          <p>Add Note*:</p>
 
-        <textarea id="Note" class="Note" cols="108" rows="8"></textarea>
+          <textarea id="Note" class="Note" cols="110" rows="10"></textarea>
+        </div>
+        <button id="addbtn" class="addbtn">Add Note</button>
+
+        <hr />
+
+        <h2>Previous Notes</h2>
+        <div id="VNote" class="container">
+          <!-- <h5 class="card-title">Note </h5>
+        <p class="card txt"></p>
+        <button id="deletebtn" class="deletebtn" >Delete Note</button> -->
+        </div>
       </div>
-      <button id="addbtn" class="addbtn">Add Note</button>
-    </div>
-    <hr />
-    <div id="eNote">
       <!-- <div class="container">
         <h1>Edit Your note here</h1>
         <div>
@@ -48,21 +58,18 @@
         </div>
         <button id="addbtn" class="addbtn">Add Edited Note</button>
       </div> -->
-    </div>
+    <!-- </div> -->
     <hr />
-    <h2>Previous Notes</h2>
-    <div id="VNote" class="container">
-      
-      <!-- <h5 class="card-title">Note </h5>
-      <p class="card txt"></p>
-      <button id="deletebtn" class="deletebtn" >Delete Note</button> -->
-    </div>
-    <hr>
 
+    <hr />
+    <!-- <div class="container">
+      <h1>LogOut</h1>
+      <button onclick="mainApp.logOut()">LogOut</button>
+    </div> -->
     <box class="nav">
       <ul>
         <li>
-          <a>
+          <a href ="#Vnote"></a>
             <h3>Previous Notes</h3>
           </a>
         </li>

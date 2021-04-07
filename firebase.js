@@ -1,5 +1,7 @@
 var app_fireBase ={};
+// script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"
 (function(){
+  
     
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional

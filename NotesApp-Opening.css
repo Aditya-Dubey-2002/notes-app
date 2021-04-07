@@ -9,7 +9,15 @@
     float: inline-start;
     top:0;
 }
-
+.btn{
+    padding: 10px 15px;
+  background-color: rgb(192, 137, 243);
+  border: 1px solid rgb(3, 5, 5);
+  width: 75%;
+  border-radius: 5px;
+  margin: auto;
+  
+}
 
 body{
     background-image:url("download.jpg");
@@ -50,7 +58,7 @@ a:hover{
     background-color: black;
 }
 a:link{
-    color:black;
+    color:rgb(240, 70, 70);
     font-size: 2em;
     position: sticky;
 }

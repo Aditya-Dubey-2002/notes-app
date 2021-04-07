@@ -22,6 +22,12 @@
             background-image: url("bgf.jpg");
         }
     </style>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
 </head>
 
 <body>
@@ -48,8 +54,8 @@
 
             <!-- the below code directs to different pages for sign in and sign up -->
 
-            <a href="Notes-App-Signup.html"><button>SignUp</button></a>
-            <a href="Notes-App-Sign-In.html"><button>Sign-In</button></a>
+            <!-- <a href="Notes-App-Signup.html"><button>SignUp</button></a> -->
+            <a href="Notes-App-Login.html"><button class="btn">Sign-In</button></a>
 
             <!-- I added the below code for the authentication directly form the opening page and may use it instead of above code
                  when firebase would be used for authentication  -->
@@ -69,13 +75,10 @@
 <!-- screenshots would be added of the features in image tags below -->
 <section class="b">
     <h4>Make your notes and edit them in a simple way</h4>
-    <img src="scrn.jpg">
+    <img src="scrnshot.jpg" width="80%">
 </section>
 <hr>
-<section class="b">
-    <h4>Share your notes with the world easily</h4>
-    <img src="">
-</section>
+
 <hr>
 <section class="c">
 <footer>
@@ -85,6 +88,7 @@
     </nav>
 </footer>
 </section>
+<script src="firebase.js"></script>
 <script src="opening-page.js"></script>
 
 </body>
