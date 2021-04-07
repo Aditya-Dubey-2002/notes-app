@@ -1,64 +1,81 @@
-.nav{
-    margin:0;
-    padding: 3px 0;
-    text-align: left;;
-    font-size: 20px;
-    box-sizing: border-box;
-    top:0;
-    word-spacing: 3px;
-    background-color: aqua;
-    list-style-type: none;
-    width: 18%;
+.nav {
+  margin: 10;
+  padding: 3px 0;
+  text-align: left;
+  font-size: 20px;
+  box-sizing: border-box;
+  top: 0;
+  word-spacing: 3px;
+  background-color: aqua;
+  list-style-type: none;
+  width: 18%;
 }
-.nav ul li{
-    padding: 3px;
-    border:1px solid aqua ;
-    list-style-type: none;
-    background-color:blanchedalmond ;
+.nav ul li {
+  padding: 3px;
+  border: 1px solid rgb(179, 255, 0);
+  list-style-type: none;
+  background-color: blanchedalmond;
+}
+.nav ul li:hover {
+  background-color: coral;
+}
 
+.head {
+  font-size: 3em;
+  text-align: center;
+  background-image: url("in.jpg");
+  margin-top: 20px;
+  border: 3px solid black;
 }
-.nav ul li:hover{
-    background-color: coral;
+body {
+  font-family: cursive;
+  margin: 15px 30px;
+  font-size: 17px;
+  padding: 8px;
 }
-
-.head{
-    font-size: 3em;
-    text-align:center;
-    background-image: url("in.jpg");
-    margin-top: 20px;
-    border:3px solid black;
-    
+.container {
+  background-color: blanchedalmond;
+  margin: 25px;
+  padding: 10px;
+  border: 1px solid coral;
 }
-body{
-    font-family: cursive;
-    margin: 15px 30px;
-    font-size: 17px;
-    padding:8px;
-
+input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid white;
 }
-.container{
-    background-color: blanchedalmond;
-    margin:25px;
-    padding:10px;
-    border: 1px solid coral;
-
-
+.addbtn {
+  padding: 10px 15px;
+  background-color: rgb(243, 255, 80);
+  border: 1px solid rgb(3, 5, 5);
+  width: 75%;
+  border-radius: 5px;
+  margin: auto;
+  
 }
-input[type="text"]{
-    width: 80%;
-    padding: 12px;
-    border: 1px solid white;
-
-
+.addbtn:hover {
+  background-color: rgb(179, 255, 0);
+  box-shadow: 5px;
 }
-.addbtn{
-    padding:10px 15px;
-    background-color: rgb(253, 109, 56);
-    border:1px solid rgb(3, 5, 5);
-    width:75%;
+.deletebtn {
+  padding: 10px 15px;
+  background-color: rgb(243, 255, 80);
+  border: 1px solid rgb(3, 5, 5);
+  width: 75%;
+  margin:2px;
 }
-.addbtn:hover{
-    background-color: rgb(253, 68, 0);
+.deletebtn:hover {
+  background-color: rgb(179, 255, 0);
+}
+.editbtn {
+  padding: 10px 15px;
+  background-color: rgb(243, 255, 80);
+  border: 1px solid rgb(3, 5, 5);
+  width: 75%;
+  margin: 2px;
+}
+.editbtn:hover {
+  background-color: rgb(179, 255, 0);
 }
 /* .box{
     margin:0;
@@ -66,8 +83,8 @@ input[type="text"]{
     box-sizing: content-box;
     border:20px solid;
 } */
-form{
-    text-align: center;
+form {
+  text-align: center;
 }
 /* .nav1{
     border: 10px solid ;
