@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App Sign-In</title>
+    <link rel="stylesheet" href="Notes-App-Login.css">
+    <style>
+        body{
+            background-image: url("download.jpg");
+        }
+        .ab{
+            background-image:url("in.jpg")
+        }
+    </style>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.js"></script>
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css" />
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.js"></script>
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css" />
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+
+</head>
+
+<body>
+    <header class="ab">
+        <h1 >
+            NOTES APP
+            </h1>
+            <span class="m">
+            <nav class="nav-bar">
+                <a href="Notes-app-opening-page.html">Opening-Page</a>
+                <a href="">About</a>
+                <a href="#f">Features</a>
+                <a href="https://cyberlabs.club/">CyberLabs</a>
+                <a href="Payment.html">Donate</a>
+            
+            </nav>
+            </span>
+            
+
+        
+    </header>
+
+    <h1>Welcome to My Notes App</h1>
+    <div id="firebaseui-auth-container"></div>
+    <div id="loader">Loading...</div>
+
+<!-- <div id="login_div">
+    <form class="container">
+        <h1>Sign-In</h1>
+        <p>Required fields are followed by *</p>
+        <h2>Enter Login Credentials</h2>
+        <p>Mail*: <input type="email" id="email" name="Mail" placeholder="mail-Id" required></p>
+        <p>Contact Number*: <input type="Number" name="Number" placeholder="1234567890" required></p>
+        <p>Enter Password*: <input type="password" name="password" required></p>
+        <button  id="login">Sign-In</button>
+    </form>
+</div>
+<hr> -->
+<section class="c">
+<footer>
+    <nav>
+        <a href="">Contact Us</a>
+        <a href="https://cyberlabs.club/">CyberLabs</a>
+    </nav>
+</footer>
+</section>
+    <!-- The core Firebase JS SDK is always required and must be listed first
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script> -->
+    <script src="firebase.js"></script>
+    <script src="login1.js"></script>
+
+
+
+</body>
+</html>
